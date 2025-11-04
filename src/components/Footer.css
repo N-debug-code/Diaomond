@@ -1,0 +1,29 @@
+/* Footer styling */
+.site-footer {
+  background: #0a0a0a;
+  color: #ddd;
+  padding: 40px 20px 20px;
+}
+.footer-inner {
+  display: flex;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto 20px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-brand h3 { font-size: 20px; color: #f8f8f8; margin-bottom: 8px; }
+.footer-brand p { color: #aaa; max-width: 260px; }
+.footer-links { display: flex; gap: 32px; }
+.footer-links h4 { color: #f1f1f1; margin-bottom: 6px; }
+.footer-links ul { list-style: none; padding: 0; margin: 0; }
+.footer-links a { color: #bbb; text-decoration: none; }
+.footer-links a:hover { color: #fff; }
+.footer-contact p { color: #bbb; margin: 6px 0; }
+.footer-bottom { text-align: center; color: #777; font-size: 0.9rem; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.04); }
+
+@media (max-width: 768px) {
+  .footer-inner { flex-direction: column; gap: 20px; }
+  .footer-links { gap: 16px; }
+}
